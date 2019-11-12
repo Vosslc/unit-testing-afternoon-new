@@ -1,7 +1,4 @@
-
-
-
-  module.exports = {
+module.exports = {
     wordCount(posts) {
       return posts.reduce((a, v) => (a += v.text.split(' ').length), 0);
     },
